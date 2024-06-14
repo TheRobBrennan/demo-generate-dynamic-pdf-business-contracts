@@ -1,6 +1,14 @@
-# Generate your own ASCII art at https://patorjk.com/software/taag/
-def display_header():
-    header = r"""
+from .display_header import display_header
+
+def test_display_header(capfd):
+    # Call the function
+    display_header()
+    
+    # Capture the output
+    captured = capfd.readouterr()
+    
+    # Define the expected header
+    expected_header = r"""
     
     
     
@@ -23,5 +31,6 @@ def display_header():
 
      
     """
-    print(header)
-
+    
+    # Assert the printed output matches the expected header
+    assert captured.out.strip() == expected_header.strip()
