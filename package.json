@@ -1,0 +1,21 @@
+{
+  "name": "explore-python-and-jupyter",
+  "version": "0.0.0",
+  "scripts": {
+    "setup": "clear && ./manage.sh setup",
+    "start": "clear && ./manage.sh start",
+    "test": "clear && ./manage.sh test",
+    "test:coverage": "clear && ./manage.sh test --coverage",
+    "destroy": "clear && ./manage.sh destroy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/explore-python-and-jupyter.git"
+  },
+  "author": "Rob Brennan <rob@therobbrennan.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/explore-python-and-jupyter/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/explore-python-and-jupyter#readme"
+}
