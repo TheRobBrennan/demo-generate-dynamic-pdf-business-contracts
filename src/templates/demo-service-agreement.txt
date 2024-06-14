@@ -1,0 +1,26 @@
+SERVICE AGREEMENT
+
+This Services Agreement shall become effective on {Execution_Date} (the "Execution Date") and is subject to the terms and conditions stated below between {Service_Provider_Name} (the "Service Provider") and {Client_Name} (the "Client"), collectively referred to as the "Parties".
+
+THEREFORE, the Parties hereby agree to enter into this Agreement according to the following terms and conditions contained herein.
+
+
+1. SERVICE PAYMENT TERMS.
+
+a. The Service Provider shall charge the Client a flat fee of ${Service_Fee} for the Services (the "Services Fee").
+
+b. An upfront payment of ${Upfront_Fee} is payable by the Client upon signing of this Agreement. This upfront payment is non-refundable.
+
+c. The remaining amount of ${Development_Fee} will be billed to the Client when the Client receives the website design and decides to proceed with the development of the website. Invoices submitted by the Service Provider to the Client are due within seven (7) days of receipt. This payment is non-refundable.
+
+d. The aforementioned Service Fee covers the Service Provider`s work for a period of {Estimated_Days_for_Completion} days following the commencement of the website development. Should the scope of work extend beyond this {Estimated_Days_for_Completion} days period due to additional requirements or changes requested by the Client, the Service Provider reserves the right to charge an additional hourly rate of ${Hourly_Rate} per hour. The Client will be informed of any such additional charges, which must be paid in advance before the continuation of work.
+
+
+Client: ________________________
+
+Date: {Execution_Date}
+
+
+Service Provider: ________________________
+
+Date: {Execution_Date}
