@@ -1,6 +1,6 @@
 # Generate your own ASCII art at https://patorjk.com/software/taag/
 def display_header():
-    header = """
+    header = r"""
     
     
     
