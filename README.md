@@ -1,8 +1,6 @@
 # Welcome
 
-This project aims to explore working with [Python](https://www.python.org) and [Jupyter](https://pypi.org/project/jupyter/) notebooks.
-
-![Screenshot of a Jupyter notebook in VS Code](./screenshots/screenshot.png)
+This project - originally inspired by Caden Chen's Medium article at [https://medium.com/pythoneers/generate-a-custom-business-contract-in-just-10-seconds-with-this-python-script-963bdc64280f](https://medium.com/pythoneers/generate-a-custom-business-contract-in-just-10-seconds-with-this-python-script-963bdc64280f) - has been created to show how to create dynamic business documents using [Python](https://www.python.org).
 
 ## Getting started
 
@@ -11,18 +9,8 @@ Assuming your development environment meets the prerequisites below, to get star
 - Run `npm run setup` to create the Python virtual environment and install all of the dependencies from `requirements.txt`
 - Run `source .venv/bin/activate` to activate your newly created Python virtual environment
 - Select the Python interpreter for VS Code
-
-![Screenshot of being prompted to select a Python interpreter for VS Code](./screenshots/vscode-select-python-interpreter-00.png)
-![Screenshot of selecting the Python interpreter at ./.venv/bin/python for VS Code](./screenshots/vscode-select-python-interpreter-01.png)
-
 - Run `deactivate` when you're ready to leave the Python virtual environment
 - OPTIONAL: If you want to delete your virtual environment completely, you can run the `npm run destroy` script
-
-### Additional resources
-
-Please see [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) for an excellent introduction to Jupyter Notebooks.
-
-![Screenshot of the Jupyter Notebooks in VS Code guide](./screenshots/jupyter-notebooks-in-vs-code.png)
 
 ### Prerequisites
 
