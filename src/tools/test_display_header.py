@@ -1,4 +1,4 @@
-from display_header import display_header
+from .display_header import display_header
 
 def test_display_header(capfd):
     # Call the function

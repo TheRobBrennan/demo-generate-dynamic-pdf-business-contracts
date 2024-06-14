@@ -2,11 +2,11 @@ import os
 import pytest
 from datetime import datetime
 from unittest.mock import patch, mock_open, MagicMock
-from update_contract import update_contract_content
+from tools.update_contract import update_contract_content
 
 @pytest.fixture
 def mock_datetime_now():
-    with patch('update_contract.datetime') as mock_date:
+    with patch('tools.update_contract.datetime') as mock_date:
         mock_date.now.return_value = datetime(2024, 1, 1)
         mock_date.strptime = datetime.strptime
         yield mock_date
@@ -29,7 +29,7 @@ def mock_os_makedirs():
 
 @pytest.fixture
 def mock_fpdf():
-    with patch('update_contract.FPDF') as mock:
+    with patch('tools.update_contract.FPDF') as mock:
         mock_instance = mock.return_value
         mock_instance.add_page = MagicMock()
         mock_instance.set_font = MagicMock()
@@ -68,7 +68,7 @@ def test_update_contract_content(mock_datetime_now, mock_open_file, mock_os_syst
 
     # Validate that the correct substitutions were made in the contract text passed to FPDF
     expected_text = (
-        "Contract Template with 2024-01-01 and other placeholders"
+        "Contract Template with {Execution_Date} and other placeholders"
         .replace("{Execution_Date}", "2024-01-01")
         .replace("{Post_Deployment_End_Date}", "2029-12-31")
         .replace("{Service_Provider_Name}", service_provider_name)
