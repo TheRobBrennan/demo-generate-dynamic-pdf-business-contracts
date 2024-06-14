@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/TheRobBrennan/demo-generate-dynamic-pdf-business-contracts.git"
   },
-  "author": "Rob Brennan <rob@therobbrennan.com>",
+  "author": "Rob Brennan <rob@sploosh.ai>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheRobBrennan/demo-generate-dynamic-pdf-business-contracts/issues"
