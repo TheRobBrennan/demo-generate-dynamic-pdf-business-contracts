@@ -2,6 +2,20 @@
 
 This project - originally inspired by Caden Chen's Medium article at [https://medium.com/pythoneers/generate-a-custom-business-contract-in-just-10-seconds-with-this-python-script-963bdc64280f](https://medium.com/pythoneers/generate-a-custom-business-contract-in-just-10-seconds-with-this-python-script-963bdc64280f) - has been created to show how to create dynamic business documents using [Python](https://www.python.org).
 
+![Python CLI](./screenshots/01-python-cli.png)
+
+![Python CLI with generated PDF](./screenshots/02-python-cli-with-generated-pdf.png)
+
+![Python test suite using pytest](./screenshots/03-python-pytest-with-coverage.png)
+
+![Code coverage report - Example 1](./screenshots/04-python-pytest-coverage-report-01.png)
+
+![Code coverage report - Example 2](./screenshots/04-python-pytest-coverage-report-02.png)
+
+![Code coverage report - Example 3](./screenshots/04-python-pytest-coverage-report-03.png)
+
+![Code coverage report - Example 4](./screenshots/04-python-pytest-coverage-report-04.png)
+
 ## Getting started
 
 Assuming your development environment meets the prerequisites below, to get started with this project you will want to:
